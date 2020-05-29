@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Navbar</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bebas+Neue&family=Lobster&family=Rubik:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  
+  <nav class="nav-wrapper">
+    
+    <div class="container white">
+
+        <a href="index.html" class="brand-logo center"><img style="max-width:250px; margin-top: 8px;"
+             src="img/gemetech.png"></a>
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="hide-on-med-and-down center">
+          <li><a href="index.html" class="center"> <i class="material-icons">home</i></a></li>
+          <li><a href="index.html#quienessomos" class="center">¿Quienes Somos?</a></li>
+          <li><a href="nuestroproductos.html" class="center">Nuestro Productos</a></li>
+        </ul>
+
+        <ul class="right  hide-on-med-and-down">
+          <li><a href="#">Iniciar sesion</a></li>
+          <li><a href="#">Registrate</a></li>
+        </ul>
+
+    </div>
+    
+  </nav>
+
+  <ul class="sidenav center" style=" font-family: Century Gothic;" id="menu-responsive">
+      <li> <a href="index.html" class="brand-logo center"><img style="max-width:250px; margin-top: 8px;"
+             src="img/gemetech.png" style="border: 10px solid;" ></a></li>
+           </br>
+           <li><a href="index.html"></a>Home</li>
+      <li><a href="#quienessomos">¿Quienes Somos?</a></li>
+      <li><a href="nuestroproductos.html">Nuestros Productos</a></li>
+      <li><a class="waves-effect waves-light btn" style="background-color: #fc8e8e;"> <i class="material-icons left white">account_circle</i>Ingresar</a></li>
+      <li><a class="waves-effect waves-light btn" style="background-color: #fc8e8e;"><i class="material-icons left white">add</i>Registrate</a></li>
+  </ul>
+
+<div id="nuestrosproductos" class="section">
+  <h3 class="fontPage">Nuestros productos</h3>
+  </div>
+  <div id="productos">
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+<footer class="page-footer">
+
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright TituloTienda
+            <a class="grey-text text-lighten-4 right" href="#!"><img class="footerIMG" src="img/gemetech.png" /></a>
+            </div>
+          </div>
+        </footer>
+  
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+  </script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems,{interval:6000});
+    M.AutoInit();
+  });
+
+
+ 
+    
+  </script>
+
+
+</body>
+
+</html>

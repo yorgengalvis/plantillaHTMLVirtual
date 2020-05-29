@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Navbar</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bebas+Neue&family=Lobster&family=Rubik:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  
+  <nav class="nav-wrapper">
+    
+    <div class="container white">
+
+        <a href="index.html" class="brand-logo center"><img style="max-width:250px; margin-top: 8px;"
+             src="img/gemetech.png"></a>
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="hide-on-med-and-down center">
+          <li><a class="center"> <i class="material-icons">home</i></a></li>
+          <li><a href="#quienessomos" class="center">¿Quienes Somos?</a></li>
+          <li><a href="nuestroproductos.html" class="center">Nuestro Productos</a></li>
+        </ul>
+
+        <ul class="right  hide-on-med-and-down">
+          <li><a href="#">Iniciar sesion</a></li>
+          <li><a href="#">Registrate</a></li>
+        </ul>
+
+    </div>
+    
+  </nav>
+
+  <ul class="sidenav center" style=" font-family: Century Gothic;" id="menu-responsive">
+      <li> <a href="index.html" class="brand-logo center"><img style="max-width:250px; margin-top: 8px;"
+             src="img/gemetech.png" style="border: 10px solid;" ></a></li>
+           </br>
+           <li><a href="index.html"></a>Home</li>
+      <li><a href="#quienessomos">¿Quienes Somos?</a></li>
+      <li><a href="nuestroproductos.html">Nuestros Productos</a></li>
+      <li><a class="waves-effect waves-light btn" style="background-color: #fc8e8e;"> <i class="material-icons left white">account_circle</i>Ingresar</a></li>
+      <li><a class="waves-effect waves-light btn" style="background-color: #fc8e8e;"><i class="material-icons left white">add</i>Registrate</a></li>
+  </ul>
+
+  <!-- Carousel -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/s1.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/s2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/s3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  <!-- Carousel -->
+<div class="caracteristicas">
+  <div class="groupByProductos">
+    <div class="row center">
+      <div class="col m4">
+        <h1><i class="medium material-icons">access_alarm</i></h1>
+        <h5 class="fontPage">Nuestras entregas a tiempo para tu persona favorita!</h5>
+      </div>
+      <div class="col m4">
+         <h1><i class="medium material-icons">cake</i></h1>
+         <h5 class="fontPage">¡Estamos comprometidos de comenzar el dia maravilloso a esa persona especial que tanto amas!</h5>
+      </div>
+      <div class="col m4">
+        <h1><i class="medium material-icons">format_shapes</i></h1>
+        <h5 class="fontPage">¡Te personalizamos el diseño que eligas a tu gusto!</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="quienessomos" class="section quienessomos">
+  <h3 class="fontPage2 center">¿Quienes Somos?</h3>
+  <div class="row">
+    <div class="col m5 center"><img src="img/logo.png"></div>
+    <div class="col m5"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+  </div>
+</div>
+
+<div id="recomendaciones" class="section">
+  <h3 class="fontPage2 center">Recomendaciones</h3>
+  <div class="row">
+    <div class="col m5 center"><img src="img/logo.png"></div>
+    <div class="col m5"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+  </div>
+</div>
+  <br />
+<footer class="page-footer">
+
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright TituloTienda
+            <a class="grey-text text-lighten-4 right" href="#!"><img class="footerIMG" src="img/gemetech.png" /></a>
+            </div>
+          </div>
+        </footer>
+  
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+  </script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems,{interval:6000});
+    M.AutoInit();
+  });
+
+
+ 
+    
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+ html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+ .case{
+  	font-family: 'Anton', sans-serif;
+ }
+
+ .groupByProductos{
+ 	padding: 25px 50px 50px 25px;
+ }
+ .nav-wrapper{
+ 	color: #00adfc;
+ }
+
+.quienessomos{
+	background-color: #f69a9a;
+	color:white;
+}
+#recomendaciones h3{
+	color: #f69a9a;
+}
+
+#nuestrosproductos{
+	padding-left: 50px;
+}
+
+#productos{
+	padding-left: 50px;
+}
+
+
+ .fontPage{
+ 	font-family: 'Lobster', cursive;
+ }
+ .fontPage2{
+ 	font-family: 'Lobster', cursive;
+ 	color:white;
+ }
+ .footerIMG{
+ 	width: 160px;
+ 	height: 40px;
+ }
+
+ .material-icons{
+ 	color:#f69a9a;
+ }
